@@ -1,27 +1,121 @@
-# DroneSimulator
+<div id="top"></div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/dcodeforyou/drone-simulator">
+    Drone Simulator
+  </a>
 
-## Development server
+<h3 align="center">Drone Simulator: Angular App to simulate the drone movement based on json file or manual inputs.</h3>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  <p align="center">
+    Angular App to simulate the drone movement based on json file or manual inputs.
+    <br />
+    <a href="https://github.com/dcodeforyou/drone-simulator"><strong>Docs »</strong></a>
+    <br />
+  </p>
+</div>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Running unit tests
+![Demo Video](images/zoom-automation.gif)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Hello There!
 
-## Running end-to-end tests
+The intention of this activity was create drone simulation app in Angular.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+In this activity I have created UI for taking marker inputs as file or manual in form of time, longitude & latitude. 
 
-## Further help
+Here's Why:
+* So we can track the drone based on coordinated given at times.
+* So you can play/pause the simulation.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+## Built With
+
+<a href="https://nodejs.org/en/">
+    <img src="images/general/node.png" target="_blank"  alt="node" width="100" height="80">
+</a>
+&nbsp;
+&nbsp;
+<a href="https://www.javascript.com/">
+    <img src="images/general/javascript.png" target="_blank" alt="js" width="80" height="80">
+</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To setup this project locally, you just need to clone this repository and follow these simple <a href="#installation">installation</a> steps. 
+
+### Prerequisites
+
+You need to have [Node](https://www.nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+
+### Installation
+
+1. Clone the repo with - 
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+2. Inside the project root directory install NPM packages with -
+   ```sh
+   npm install
+   ```
+3. Add your Google API key in index.html-
+   ```sh
+   <script src="//maps.googleapis.com/maps/api/js?key=${YOUR_API_KEY}"></script>
+   ```
+4. To serve the app - 
+   * Serve it locally at localhost:4200
+        ```js
+            ng serve
+        ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+Dushyant Surya - dcodeforyou@gmail.com
+
+Activity Link: [hhttps://github.com/dcodeforyou/drone-simulator](https://github.com/dcodeforyou/drone-simulator)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
