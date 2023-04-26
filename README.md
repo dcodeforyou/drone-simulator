@@ -43,10 +43,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<summary>Demo of File Path</summary>
+#Demo of File Path
 ![Demo Video](src/assets/images/file-path.gif)
 
-<summary>Demo of Manual Path</summary>
+#Demo of Manual Path
 ![Demo Video](src/assets/images/manual-path.gif)
 
 Hello There!
