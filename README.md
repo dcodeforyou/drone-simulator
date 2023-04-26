@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://6448b127b068850fb9a23081--imaginative-nougat-22aad4.netlify.app">
+  <a href="https://6448b127b068850fb9a23081--imaginative-nougat-22aad4.netlify.app" target="_blank">
     Drone Simulator App (Hosted)
   </a>
 
