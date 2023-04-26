@@ -43,7 +43,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Demo Video](images/zoom-automation.gif)
+Demo of File Path
+![Demo Video](src/assets/images/file-path.gif)
+
+Demo of Manual Path
+![Demo Video](src/assets/images/manual-path.gif)
 
 Hello There!
 
@@ -62,12 +66,12 @@ Here's Why:
 ## Built With
 
 <a href="https://nodejs.org/en/">
-    <img src="images/general/node.png" target="_blank"  alt="node" width="100" height="80">
+    <img src="src/assets/images/angular.png" target="_blank"  alt="angular" width="100" height="80">
 </a>
 &nbsp;
 &nbsp;
 <a href="https://www.javascript.com/">
-    <img src="images/general/javascript.png" target="_blank" alt="js" width="80" height="80">
+    <img src="src/assets/images/javascript.png" target="_blank" alt="js" width="80" height="80">
 </a>
 &nbsp;
 &nbsp;
@@ -85,7 +89,7 @@ To setup this project locally, you just need to clone this repository and follow
 
 ### Prerequisites
 
-You need to have [Node](https://www.nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+You need to have [Node](https://www.nodejs.org/), [angular-cli] and [npm](https://www.npmjs.com/) installed on your machine.
 
 ### Installation
 
