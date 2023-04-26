@@ -1,0 +1,26 @@
+<div class="main-input-container">
+    <ng-container *ngIf="!(enableSimulation | async)">
+        <div class="input-container">
+            <input type="file" class="file-upload" (change)="onFileUpload($event)">
+        </div>
+        
+        <form class="input-container input-form" *ngIf="!(enableSimulation | async)" [formGroup]="inputForm" (ngSubmit)="submitForm()">
+            <div formArrayName="markers" class="form-inputs">
+                <div *ngFor="let marker of getMarkerControls(); let i=index" formGroupName="{{i}}">
+                    <div class="marker-container">
+                            <div class="lng-lat-inputs">
+                                <input formControlName="time" type="datetime" placeholder="Time" />
+                                <input formControlName="longitude" type="text" placeholder="Longitude" />
+                                <input formControlName="latitude" type="text" placeholder="Latitude" />
+                            </div>  
+                    </div>
+                    
+                </div>
+                <button type="button" class="add-btn" (click)="addMarker()">
+                    <span>Add Marker</span>
+                </button>
+            </div>
+            <button type="submit" class="btn-neutral submit-btn" [disabled]="!inputForm.valid">Create Path</button>
+        </form>
+    </ng-container>
+</div>

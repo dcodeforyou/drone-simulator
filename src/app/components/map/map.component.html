@@ -1,0 +1,24 @@
+<div #mapContainer class="map"></div>
+<div class="tool-bar">
+    <div *ngIf="(enableSimulation|async) && enableSlider; else notSimulating" class="map-controls">
+        <button class="btn-neutral" (click)="togglePlay()" [disabled]="!enableSlider">
+            <span class="pause-play-icon">
+                <ng-container *ngIf="pauseSimulation; else play">
+                    Play
+                </ng-container>
+                <ng-template #play>
+                    Pause
+                </ng-template>
+            </span>
+        </button>
+        <input #droneSlider class="droneSlider" type="range" min="0"
+            [max]="dronePathArray.length" [disabled]="!enableSlider" [(ngModel)]="droneSliderValue"/>
+    </div>
+    <ng-template #notSimulating>
+        <div class="controllers">
+            <button class="btn-neutral"  (click)="startSimulation()" [disabled]="!(enableSimulation|async)">Simulate</button><br>
+            <button class="btn-neutral" (click)="disableSimulation()">Create Another Path</button>
+        </div>
+    </ng-template>
+</div>
+    

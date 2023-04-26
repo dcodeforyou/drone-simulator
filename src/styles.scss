@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'app/themes/css-vars.scss';
+
+button {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.btn-neutral {
+    font-weight: bold;
+    color: var(--btn-color);
+    background-color: var(--btn-background);
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 7px;
+    &[disabled] {
+        color: var(--btn-disabled-color);
+        background-color: var(--btn-disabled-background);
+        cursor: auto;
+    }
+}

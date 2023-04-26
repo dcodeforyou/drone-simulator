@@ -1,0 +1,117 @@
+[
+    {
+      "time_sec": 120,
+      "longitude": -73.9866,
+      "latitude": 40.7484
+    },
+    {
+      "time_sec": 180,
+      "longitude": -77.0369,
+      "latitude": 38.9072
+    },
+    {
+      "time_sec": 240,
+      "longitude": -118.2437,
+      "latitude": 34.0522
+    },
+    {
+      "time_sec": 300,
+      "longitude": -0.1278,
+      "latitude": 51.5074
+    },
+    {
+      "time_sec": 360,
+      "longitude": -87.6298,
+      "latitude": 41.8781
+    },
+    {
+      "time_sec": 420,
+      "longitude": -74.0059,
+      "latitude": 40.7128
+    },
+    {
+      "time_sec": 480,
+      "longitude": -118.4692,
+      "latitude": 33.985
+    },
+    {
+      "time_sec": 540,
+      "longitude": -77.0428,
+      "latitude": 38.9006
+    },
+    {
+      "time_sec": 600,
+      "longitude": -71.0589,
+      "latitude": 42.3601
+    },
+    {
+      "time_sec": 660,
+      "longitude": -73.9352,
+      "latitude": 40.7306
+    },
+    {
+      "time_sec": 720,
+      "longitude": -118.2437,
+      "latitude": 34.0522
+    },
+    {
+      "time_sec": 780,
+      "longitude": -77.0369,
+      "latitude": 38.9072
+    },
+    {
+      "time_sec": 840,
+      "longitude": -118.2437,
+      "latitude": 34.0522
+    },
+    {
+      "time_sec": 900,
+      "longitude": -74.006,
+      "latitude": 40.7128
+    },
+    {
+      "time_sec": 960,
+      "longitude": -77.0428,
+      "latitude": 38.9006
+    },
+    {
+      "time_sec": 1020,
+      "longitude": -118.2437,
+      "latitude": 34.0522
+    },
+    {
+      "time_sec": 1080,
+      "longitude": -118.4692,
+      "latitude": 33.985
+    },
+    {
+      "time_sec": 1140,
+      "longitude": -77.0369,
+      "latitude": 38.9072
+    },
+    {
+      "time_sec": 1200,
+      "longitude": -73.9866,
+      "latitude": 40.7484
+    },
+    {
+      "time_sec": 1260,
+      "longitude": -0.1278,
+      "latitude": 51.5074
+    },
+    {
+      "time_sec": 1320,
+      "longitude": -87.6298,
+      "latitude": 41.8781
+    },
+    {
+      "time_sec": 1380,
+      "longitude": -118.2437,
+      "latitude": 34.0522
+    },
+    {
+      "time_sec": 1440,
+      "longitude": -74.0059,
+      "latitude": 40.7128
+    }  
+]
