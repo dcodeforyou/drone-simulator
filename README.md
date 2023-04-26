@@ -3,8 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/dcodeforyou/drone-simulator">
-    Drone Simulator
+  <a href="https://6448b127b068850fb9a23081--imaginative-nougat-22aad4.netlify.app/drone-simulator">
+    Drone Simulator App (Hosted)
   </a>
 
 <h3 align="center">Drone Simulator: Angular App to simulate the drone movement based on json file or manual inputs.</h3>
