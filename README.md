@@ -97,7 +97,7 @@ You need to have [Node](https://www.nodejs.org/), [angular-cli] and [npm](https:
 
 1. Clone the repo with - 
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/dcodeforyou/drone-simulator.git
    ```
 2. Inside the project root directory install NPM packages with -
    ```sh
